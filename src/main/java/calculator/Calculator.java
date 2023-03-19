@@ -10,7 +10,7 @@ public class Calculator {
             if (a == 0){
                 throw new Exception("cannot divide by zero");
             }
-            return 1/a;
+            return 1/(float)a;
         } else if (opt.equals("sqr")) {
             if (a < 0){
                 throw new Exception("sqrt is not defined for negative numbers");
